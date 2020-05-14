@@ -18,7 +18,7 @@ def line(katz_deli)
       combinedArr << "#{counterArr[secondCounter]}. #{name}"
       secondCounter +=1 
     end
-      puts "The line is currently: #{combinedArr.join(" ")}"
+      puts "The line is currently: #{combinedArr.}"
  end
 end 
   def now_serving(katz_deli)
